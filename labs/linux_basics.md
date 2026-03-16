@@ -38,6 +38,12 @@ Deletes files or directories.
 rmdir  
 Deletes an empty directory.
 
+Command	      Purpose
+cat file	    show full file
+less file	    scroll through file
+head file	    show first lines
+tail file	    show last lines
+
 ## Conclusion
 
 These commands help users navigate and manage files in Linux. They are fundamental for cybersecurity professionals since most security tools operate on Linux systems.
