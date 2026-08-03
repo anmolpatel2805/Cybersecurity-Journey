@@ -75,6 +75,7 @@ nslookup google.com
 
 ---
 
+<img width="1906" height="501" alt="networking" src="https://github.com/user-attachments/assets/b19ff43f-5c63-4b9d-bb5b-7629e48d6d12" />
 
 
 ## Room Completion
