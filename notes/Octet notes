@@ -1,0 +1,12 @@
+Date: 26/8/26 Day: Wednesday
+
+Task: DOS & DDOS techniques, DOS and DDOS difference and Bot Botnet difference 
+*TOPIC: DOS AND DDOS"
+        *When one device send multiple requests to the server the server may get down or crash.*
+        Multiple logs can lead to hang of the system.
+        When multiple systems attack to the server the server may get hanged.
+        Bot - is an automated program that is made to perform task automatically. 
+        Botnet - it is a group of malware attacked system.
+        There are two types of not: Good bot and Bad bot. Malware affected system is also called as bad bot. 
+        One system to another system attack is called as *DOS*.
+        Multiple system to the one system is called as *DDOS*.
