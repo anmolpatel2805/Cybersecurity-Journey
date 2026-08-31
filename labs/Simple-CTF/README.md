@@ -110,6 +110,17 @@ find / -perm -4000 2>/dev/null
 ## Screenshots 
 ------First flag and second flag
 <img width="1668" height="878" alt="image" src="https://github.com/user-attachments/assets/d5efae81-ea4d-4b66-b03b-30943abdd557" />
+
+
+
+
+
+
+
+
+
+
+
 ------Third flag
 <img width="1668" height="878" alt="image" src="https://github.com/user-attachments/assets/b3740506-79d5-4905-8690-41f28e831bcc" />
 <img width="1668" height="878" alt="image" src="https://github.com/user-attachments/assets/247c5803-d806-4cff-ab35-f31590b404ce" />
