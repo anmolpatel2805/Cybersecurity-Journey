@@ -107,6 +107,26 @@ find / -perm -4000 2>/dev/null
 
 ---
 
+## Screenshots 
+------First flag and second flag
+<img width="1668" height="878" alt="image" src="https://github.com/user-attachments/assets/d5efae81-ea4d-4b66-b03b-30943abdd557" />
+------Third flag
+<img width="1668" height="878" alt="image" src="https://github.com/user-attachments/assets/b3740506-79d5-4905-8690-41f28e831bcc" />
+<img width="1668" height="878" alt="image" src="https://github.com/user-attachments/assets/247c5803-d806-4cff-ab35-f31590b404ce" />
+<img width="1890" height="941" alt="image" src="https://github.com/user-attachments/assets/b7a20af1-6dcf-4d6d-ace5-3d0b8c0c78c8" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Lessons Learned
 
 This room reinforced the importance of systematic enumeration before exploitation. It demonstrated how careful reconnaissance, service enumeration, and privilege escalation techniques are combined during a penetration testing engagement while emphasizing ethical and authorized security testing.
