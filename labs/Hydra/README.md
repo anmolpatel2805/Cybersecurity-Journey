@@ -76,9 +76,27 @@ hydra -l admin -P rockyou.txt <TARGET_IP> http-post-form "/login:username=^USER^
 
 ## Room Completion
 
-<img width="1902" height="605" alt="hydra" src="https://github.com/user-attachments/assets/8093f9b8-439c-4e87-88a4-e0adb3fc5486" />
+<img width="1902" height="605" alt="hydra" src="https://github.com/user-attachments/assets/8093f9b8-439c-4e87-88a4-e0adb3fc5486" /> 
+
 
 ---
+
+# Screenshots of the steps performed to get flags
+<img width="1668" height="878" alt="image" src="https://github.com/user-attachments/assets/b743cf37-dad6-47a2-bcff-306bf6e9e85f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Lessons Learned
 
