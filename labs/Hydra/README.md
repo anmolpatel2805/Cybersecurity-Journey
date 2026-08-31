@@ -84,6 +84,9 @@ hydra -l admin -P rockyou.txt <TARGET_IP> http-post-form "/login:username=^USER^
 # Screenshots of the steps performed to get flags
 <img width="1668" height="878" alt="image" src="https://github.com/user-attachments/assets/b743cf37-dad6-47a2-bcff-306bf6e9e85f" />
 
+<img width="1668" height="878" alt="image" src="https://github.com/user-attachments/assets/4a726252-aab2-4f9d-babd-1e90c330c27a" />
+
+
 
 
 
