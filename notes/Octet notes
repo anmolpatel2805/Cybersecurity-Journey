@@ -1,12 +1,32 @@
 Date: 26/8/26 Day: Wednesday
 
 Task: DOS & DDOS techniques, DOS and DDOS difference and Bot Botnet difference 
-*TOPIC: DOS AND DDOS"
+
+*TOPIC: DOS AND DDOS*
+
         *When one device send multiple requests to the server the server may get down or crash.*
         Multiple logs can lead to hang of the system.
         When multiple systems attack to the server the server may get hanged.
         Bot - is an automated program that is made to perform task automatically. 
         Botnet - it is a group of malware attacked system.
-        There are two types of not: Good bot and Bad bot. Malware affected system is also called as bad bot. 
+        There are two types of bot: Good bot and Bad bot. Malware affected system is also called as bad bot. 
         One system to another system attack is called as *DOS*.
-        Multiple system to the one system is called as *DDOS*.
+        Multiple system to the one server is called as *DDOS*.
+
+
+
+Date: 1/09126 Day: Tuesday
+
+ **TOPIC: Malware Analysis**
+
+Process of malware analysis: Malware analysis takes place when malware comes inside a system.
+1) Identify the affected system
+2) Isolate the affected system
+3) Shutdown the network (turning off the switch of the network if necessary)
+4) Finding malware
+5) Static and Dynamic malware analysis 
+6) Delete the malware
+7) Backdoor checking
+8) If copy exists then Delete the copies of malware 
+9) Backup and recovery of data 
+10) Reporting
