@@ -153,6 +153,9 @@ find / -perm -4000 2>/dev/null
 
 
 ------------Fourth flag>>>>>>>>>>>>>>>>>>>>>
+
+
+
 Steps
 TryHackMe Simple CTF — Cracking the CMS Admin Password (CVE-2019-9053)
 Summary
