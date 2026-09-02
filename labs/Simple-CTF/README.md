@@ -211,6 +211,7 @@ The script targets Python 2, but modern Kali only ships Python 3. The two patche
 
 
 
+
 # Lessons Learned
 
 This room reinforced the importance of systematic enumeration before exploitation. It demonstrated how careful reconnaissance, service enumeration, and privilege escalation techniques are combined during a penetration testing engagement while emphasizing ethical and authorized security testing.
