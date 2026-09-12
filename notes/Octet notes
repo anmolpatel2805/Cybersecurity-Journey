@@ -13,7 +13,7 @@ Task: DOS & DDOS techniques, DOS and DDOS difference and Bot Botnet difference
         One system to another system attack is called as *DOS*.
         Multiple system to the one server is called as *DDOS*.
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Date: 1/09126 Day: Tuesday
 
@@ -30,3 +30,153 @@ Process of malware analysis: Malware analysis takes place when malware comes ins
 8) If copy exists then Delete the copies of malware 
 9) Backup and recovery of data 
 10) Reporting
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Date: 12/09/26 Day: Saturday
+Task: Encryiption and encoding 
+
+**Topic: Cryptography**
+
+
+Cryptography: Cryptography is the science of securing data and communication using mathematical codes and algorithms so only intended parties can read it. (converting data to cypher text)
+Crypt: to hide,  graphy: writing 
+Cryptography is an art of converting plain text into cypher text and vise versa. 
+It is process of encryption and decryption. 
+There are two types of cryptography
+The password used to decrypt the encrypted msg is called as key.
+1) Symmetric Key Cryptography 
+There is only one key used for encryption and decryption 
+
+2) Assymmertic Key cryptography
+There is different key used for encrypting the msg and different key used for decrypting the msg
+
+Symmetric Key Cryptography 🔑
+
+Symmetric encryption uses the same key for both encryption and decryption.
+
+How it works:
+Sender and receiver share a secret key.
+Sender encrypts the message using that key.
+Receiver decrypts the message using the same key.
+Example:
+Key: 12345
+Message: "Hello"
+Encrypt using key 12345
+Receiver uses key 12345 to decrypt it.
+Real-Life Analogy:
+
+Think of a locker with one key.
+
+You lock it with the key.
+The other person needs the same key to open it.
+Advantages:
+
+✅ Fast
+✅ Good for encrypting large amounts of data
+
+Disadvantages:
+
+❌ Sharing the secret key securely can be difficult
+
+Examples:
+AES
+DES
+3DES
+Asymmetric Key Cryptography 🔐🔓
+
+Asymmetric encryption uses two different keys:
+
+Public Key (shared with everyone)
+Private Key (kept secret)
+How it works:
+Receiver shares their public key.
+Sender encrypts the message using the public key.
+Receiver decrypts it using their private key.
+Example:
+Bob's Public Key → Available to everyone
+Bob's Private Key → Secret
+Alice encrypts a message using Bob's public key.
+Only Bob can decrypt it using his private key.
+Real-Life Analogy:
+
+Think of a mailbox:
+
+Anyone can put letters into the mailbox (public key).
+Only the owner can open it and read the letters (private key).
+Advantages:
+
+✅ No need to share a secret key
+✅ More secure for key exchange
+
+Disadvantages:
+
+❌ Slower than symmetric encryption
+
+Examples:
+RSA
+ECC
+Diffie-Hellman (key exchange)
+There are two types of key private key and public key:
+🔓 Public Key
+Public key thi data encrypt thay
+A key that can be shared with anyone.
+Used to encrypt data or verify digital signatures.
+It does not need to be kept secret.
+
+Example:
+If you want to send me a secret message, you use my public key to encrypt it.
+
+🔐 Private Key
+Private key se data decrypt hota hai
+A key that must be kept secret by the owner.
+Used to decrypt data encrypted with the corresponding public key or create digital signatures.
+If someone gets your private key, they can access your encrypted data.
+
+Example:
+After you encrypt a message with my public key, only my private key can decrypt and read it.
+ SSh mein bhi punlic and private key ka concept hai
+
+Interview question:   Encryption and Encoding Difference
+1. Encryption 🔒
+
+Encryption is used to keep data secret.
+
+It converts readable data (plaintext) into unreadable data (ciphertext).
+Only someone with the correct key can convert it back and read it.
+Main purpose: Security and Privacy
+
+Example:
+
+Original: Hello
+Encrypted: x7#@P9!
+
+Without the key, nobody can understand the message.
+
+Real-life example:
+
+WhatsApp messages
+Online banking
+HTTPS websites
+2. Encoding 📝
+
+Encoding is used to change the format of data so that computers can store or transmit it properly.
+
+It is not meant for security.
+Anyone who knows the encoding method can decode it.
+Main purpose: Data compatibility and communication
+
+Example (Base64 Encoding):
+
+Original: Hello
+Encoded: SGVsbG8=
+
+Anyone can easily decode it back to "Hello".
+
+Real-life example:
+
+Email attachments
+Web pages (UTF-8)
+Base64 encoded images 
+
