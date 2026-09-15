@@ -180,3 +180,65 @@ Email attachments
 Web pages (UTF-8)
 Base64 encoded images 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Date: 15/09/26 Day: Tuesday 
+
+**Topic: steganography**
+ROOM: C4PTUR 3 Tryhackme F14g TH3, useful tools: cyber chef, cryptii.com, audacity, sonuc visualizer SKILLS YOU SHOULD LEARN: Nmap, MSF
+Steganography is an art of hiding data in format liked files, images etc. 
+Steganography: Hides the existence of the data itself.
+There are four types of steganography
+1) Image: Meta data, image ni hex value, LSB (least significant bit). Data is hidden in pixel values (often using LSB – Least Significant Bit).
+2) Video: Combination of video and audio
+3) Audio: Frequency, spectogram, waves, radio waves, microwaves.
+4) Files: Text files, doc x files
+
+
+**Topic: Ceaser Cipher**
+Caesar Cipher is one of the simplest encryption techniques where each letter in the plaintext is shifted by a fixed number of positions in the alphabet.
+
+Example (Shift = 3)
+
+Plaintext:
+
+HELLO
+
+Shift each letter 3 positions forward:
+
+H → K
+E → H
+L → O
+L → O
+O → R
+
+Ciphertext:
+
+KHOOR
+Alphabet Shift Table (Shift = 3)
+Plain : ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Cipher: DEFGHIJKLMNOPQRSTUVWXYZABC
+Decryption
+
+To decrypt, shift the letters backward by the same number.
+
+Example:
+
+KHOOR → HELLO
+Formula
+
+Encryption:
+
+C = (P + K) mod 26
+
+Decryption:
+
+P = (C - K) mod 26
+
+Where:
+
+P = Plaintext letter position
+C = Ciphertext letter position
+K = Shift value (key)
+
+
