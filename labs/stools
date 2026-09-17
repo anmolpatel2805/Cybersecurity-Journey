@@ -1,0 +1,17 @@
+1. Opened the steganography tool.
+
+2. Selected the GIF image file to be used as the cover image.
+
+3. Chose the file `hello.txt` as the data to be hidden inside the image.
+
+4. Set a password to protect the hidden file.
+
+5. Embedded `hello.txt` into the GIF image successfully.
+
+6. Opened the modified image containing the hidden file.
+
+7. Entered the correct password during the extraction process.
+
+8. Revealed and extracted the hidden content from the image.
+
+9. The hidden file `hello.txt` was successfully recovered and opened.
